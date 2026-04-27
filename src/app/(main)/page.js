@@ -1,9 +1,7 @@
-import Image from "next/image";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div>
-      <h1>Homepage</h1>
-    </div>
-  );
+const default_category_id = '01'
+
+export default async function Home() {
+  redirect(`/categories/${default_category_id}`)
 }

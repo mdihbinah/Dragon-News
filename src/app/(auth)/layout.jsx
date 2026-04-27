@@ -1,9 +1,10 @@
 import Navbar from '@/component/shared/Navbar';
 import React from 'react';
+import { montserrat } from '../layout';
 
 const Authlayout = ({children}) => {
     return (
-        <div>
+        <div className={`${montserrat}`}>
             <Navbar></Navbar>
             {children}
         </div>
