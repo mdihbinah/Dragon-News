@@ -23,7 +23,7 @@ const LoginPage = () => {
     if(error){
       alert(error.message)
     }
-    if (res){
+    if (data){
       alert('sign up Successful!')
     }
 }
