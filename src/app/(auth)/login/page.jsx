@@ -20,7 +20,13 @@ const LoginPage = () => {
     rememberMe: true,
     callbackURL: "/",
 })
+    if(error){
+      alert(error.message)
     }
+    if (res){
+      alert('sign up Successful!')
+    }
+}
     return (
         <div className='container mx-auto min-h-[85vh] flex justify-center items-center bg-slate-100' >
             <div className="hero bg-base-200 min-h-screen">
