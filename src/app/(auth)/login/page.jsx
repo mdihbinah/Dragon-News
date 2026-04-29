@@ -32,7 +32,7 @@ const LoginPage = () => {
             <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col">
     <div className="text-center ">
-      <h1 className="text-5xl font-bold mb-2">Login Now</h1>
+      <h1 className="text-5xl font-bold mb-2">Login Now!!!</h1>
     </div>
     <form  onSubmit={handleSubmit(handleLogInFunc)} >
         <div className="card bg-base-100 min-w-80 shrink-0 shadow-2xl">
